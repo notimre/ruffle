@@ -3,3 +3,5 @@
 pub mod display;
 pub mod events;
 pub mod system;
+pub mod ui;
+

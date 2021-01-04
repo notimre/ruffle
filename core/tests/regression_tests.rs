@@ -483,6 +483,7 @@ swf_tests! {
     (as3_movieclip_dispatchevent_cancel, "avm2/movieclip_dispatchevent_cancel", 1),
     (as3_movieclip_dispatchevent_target, "avm2/movieclip_dispatchevent_target", 1),
     (as3_movieclip_dispatchevent_selfadd, "avm2/movieclip_dispatchevent_selfadd", 1),
+    (as3_flash_ui_keyboard, "avm2/flash_ui_keyboard", 1),
 }
 
 // TODO: These tests have some inaccuracies currently, so we use approx_eq to test that numeric values are close enough.

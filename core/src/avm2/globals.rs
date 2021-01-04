@@ -486,6 +486,15 @@ pub fn load_player_globals<'gc>(
         script,
     )?;
 
+    // package `flash.ui`
+    class(
+        activation,
+        flash::ui::keyboard::create_class(mc),
+        implicit_deriver,
+        domain,
+        script,
+    )?;
+
     // package `flash.display`
     class(
         activation,

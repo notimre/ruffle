@@ -1,0 +1,4 @@
+// flash.ui.Keyboard
+[class Keyboard]
+// flash.ui.Keyboard.A
+65
